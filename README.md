@@ -1,5 +1,8 @@
 # 🎬 ImageMotion AI - Smart Video Generator
 
+> **Created by Antono**
+
+
 Transform static images into dynamic animated videos with **AI-powered intelligence**.
 
 ![Made with Love](https://img.shields.io/badge/Made%20with-AI%20%F0%9F%A4%96-red)
