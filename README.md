@@ -1,1 +1,31 @@
-Last updated: 2026-08-20 14:10:45 WIB
+# -Image-to-Video-Generator
+
+
+
+## 📋 Overview
+
+This repository contains **18 files** and is built with the following technologies:
+
+Python, HTML
+
+## 🚀 Quick Start
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+## ✨ Features
+
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+Python, HTML
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-08-20 14:31:47 WIB*
