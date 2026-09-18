@@ -1,71 +1,65 @@
-<!-- README ini dihasilkan otomatis oleh .github/workflows/generate-readme.yml -->
-<!-- Jangan edit manual: perubahan akan ditimpa pada run berikutnya. -->
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-<h1 align="center">ImageMotion AI 👋</h1>
+<h1 align="center">ImageMotion AI - Smart Video Generator 👋</h1>
 
 <p align="center">
-  <em>🌐 Web project -  Image To Video Generator</em>
+  <strong>Transform images into living videos with intelligent motion</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/antono4/-Image-to-Video-Generator"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/-Image-to-Video-Generator-blue?logo=github"></a>
   <a href="https://antono4.github.io/-Image-to-Video-Generator/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
-  <img alt="Files" src="https://img.shields.io/badge/Files-13-informational">
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/antono4/-Image-to-Video-Generator">
+  <img alt="Files" src="https://img.shields.io/badge/Files-16-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-18 07:15:31 WIB-lightgrey">
 </p>
 
 ---
 
 ## 📖 Tentang
 
-Repository **`-Image-to-Video-Generator`** adalah proyek Python yang dibangun dengan HTML, Python.
-Situs ini diterbitkan melalui **GitHub Pages** dan dapat diakses di [`https://antono4.github.io/-Image-to-Video-Generator/`](https://antono4.github.io/-Image-to-Video-Generator/).
+Repository **`-Image-to-Video-Generator`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/-Image-to-Video-Generator/`](https://antono4.github.io/-Image-to-Video-Generator/).
 
 ## 🗂️ Struktur Proyek
 
 ```
 -Image-to-Video-Generator/
-.github/
-  workflows/
-LICENSE
-SPEC.md
-app.py
-index.html
-requirements.txt
-streamlit.log
-utils/
-  __init__.py
-  __pycache__/
-  effects.py
-  video_generator.py
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
 ```
 
 ## 🛠️ Teknologi
 
-Berdasarkan ekstensi berkas yang terdeteksi di repository:
+Berdasarkan isi repository, proyek ini menggunakan:
 
 - `HTML`
 - `Python`
 
-> Total **13 berkas** di repository (di luar `.git`, `node_modules`, `dist`, dan `build`).
+> Total **16 file** terdeteksi di repository.
 
 ## 🚀 Menjalankan Secara Lokal
 
-Butuh Python 3:
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
 
 ```bash
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
 ```
 
 ## 📬 Kontak
 
 - GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/-Image-to-Video-Generator/](https://antono4.github.io/-Image-to-Video-Generator/)
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah MIT License — lihat berkas [`LICENSE`](./LICENSE).
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
 
-<sub>README ini di-generate otomatis oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
+<sub>README ini di-generate otomatis pada **2026-09-18 07:15:31 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
